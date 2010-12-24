@@ -2,7 +2,7 @@ require 'thor'
 
 module Lumbar
   
-  class CLI < Thor
+  class Tasks < Thor
    
       include Thor::Actions
       require 'fileutils'
@@ -39,14 +39,14 @@ module Lumbar
 
           else
             say <<-EOS
-    Usage:
-      thor backbone:new TYPE NAME
+Usage:
+  lumbar new TYPE NAME
 
-    Types:
-     - project
-     - controller
-     - model (creates a collection too)
-     - view
+Types:
+ - project
+ - controller
+ - model (creates a collection too)
+ - view
             EOS
 
         end
@@ -288,7 +288,7 @@ var <%= className %> = Backbone.View.extend({
 EOS
 
 
-  RAKEFILE_TEMPLATE = <<-EOS
+    RAKEFILE_TEMPLATE = <<-EOS
 
 # Your thor tasks here...
 

@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   s.add_dependency 'thor'
-  s.add_dependency 'active_support'
+  s.add_dependency 'activesupport'
   #s.add_dependency 'tilt'
 end
