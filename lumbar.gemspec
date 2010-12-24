@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Matt McCray"]
   s.email       = ["darthapo@gmail.com"]
   s.homepage    = "https://github.com/darthapo/lumbar"
-  s.summary     = %q{"Lumbar supports building Backbone (JS) applications"}
+  s.summary     = %q{"Lumbar supports building Backbone (JS) applications."}
   s.description = s.summary
 
   s.rubyforge_project = "lumbar"
@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   
   s.add_dependency 'thor'
   s.add_dependency 'active_support'
-  s.add_dependency 'tilt'
+  #s.add_dependency 'tilt'
 end

@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# -*- mode: ruby -*-
+
+require 'lumbar/runner'
+$thor_runner = true
+Lumbar::Runner.start
